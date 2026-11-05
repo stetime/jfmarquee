@@ -1,0 +1,19 @@
+{
+  "name": "marquee",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bunx concurrently -n server,client -c blue,green \"bun run dev:server\" \"bun run dev:client\"",
+    "dev:server": "bun run --cwd server sh -c 'cd .. && set -a && . ./.env.local && set +a && cd server && exec go run ./cmd/marquee'",
+    "dev:client": "bun run --cwd client dev",
+    "build": "bun run build:client && bun run build:server",
+    "build:client": "bun run --cwd client build && rm -rf server/internal/web/dist && cp -r client/dist server/internal/web/dist",
+    "build:server": "go build -C server -o ../marquee ./cmd/marquee",
+    "test": "go test -C server ./...",
+    "lint": "bun run --cwd client lint",
+    "vet": "go vet -C server ./..."
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.6"
+  }
+}

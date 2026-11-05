@@ -1,0 +1,3 @@
+This placeholder keeps server/internal/web/dist non-empty so that the
+//go:embed directive in internal/web/embed.go compiles before the client has
+been built. `bun run build:client` replaces the directory with client/dist.

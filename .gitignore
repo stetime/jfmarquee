@@ -1,0 +1,35 @@
+# dependencies
+node_modules
+*.tgz
+
+# build output (all patterns are anchored: an unanchored `dist` or `marquee`
+# would also match deeper paths, e.g. server/cmd/marquee)
+/dist
+/client/dist
+/marquee
+*.test
+
+# the embedded client build is ignored, but keep the placeholder so that
+# //go:embed compiles in a fresh clone (Go ignores dotfiles when matching)
+/server/internal/web/dist/*
+!/server/internal/web/dist/.gitkeep
+!/server/internal/web/dist/PLACEHOLDER
+
+# env
+.env
+.env.local
+.env.*.local
+
+# logs / caches
+logs
+*.log
+.cache
+*.tsbuildinfo
+
+# editor
+.idea
+.vscode
+.DS_Store
+
+# local design notes
+/PRODUCT.md

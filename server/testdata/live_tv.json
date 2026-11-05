@@ -1,0 +1,22 @@
+[
+  {
+    "Id": "sess-4",
+    "UserName": "sam",
+    "DeviceName": "Firefox",
+    "Client": "Jellyfin Web",
+    "RemoteEndPoint": "203.0.113.7:41000",
+    "NowPlayingItem": {
+      "Id": "item-live",
+      "Name": "Formula 1",
+      "Type": "LiveTvChannel",
+      "ProductionYear": null,
+      "ImageTags": null,
+      "MediaSources": null
+    },
+    "PlayState": {
+      "PositionTicks": null,
+      "IsPaused": false,
+      "PlayMethod": "Transcode"
+    }
+  }
+]

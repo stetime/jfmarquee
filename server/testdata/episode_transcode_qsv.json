@@ -1,0 +1,40 @@
+[
+  {
+    "Id": "sess-2",
+    "UserName": "jwong",
+    "DeviceName": "Living Room TV",
+    "Client": "Jellyfin Android TV",
+    "RemoteEndPoint": "100.64.0.42",
+    "NowPlayingItem": {
+      "Id": "item-episode",
+      "Name": "The Gang Solves the Gas Crisis",
+      "Type": "Episode",
+      "RunTimeTicks": 12600000000,
+      "ProductionYear": 2005,
+      "SeriesName": "It's Always Sunny in Philadelphia",
+      "SeriesId": "series-1",
+      "SeriesPrimaryImageTag": "tag-series",
+      "ParentIndexNumber": 4,
+      "IndexNumber": 2,
+      "MediaSources": [
+        {
+          "Bitrate": 8000000
+        }
+      ]
+    },
+    "PlayState": {
+      "PositionTicks": 2520000000,
+      "IsPaused": false,
+      "PlayMethod": "Transcode"
+    },
+    "TranscodingInfo": {
+      "Bitrate": 4000000,
+      "VideoCodec": "h264",
+      "AudioCodec": "aac",
+      "Width": 1920,
+      "Height": 1080,
+      "HardwareAccelerationType": "qsv",
+      "TranscodeReasons": 421
+    }
+  }
+]

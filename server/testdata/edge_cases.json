@@ -1,0 +1,28 @@
+[
+  {
+    "Id": "sess-idle",
+    "UserName": "cviii",
+    "DeviceName": "Marquee",
+    "Client": "OpenCode",
+    "RemoteEndPoint": "192.168.1.10",
+    "NowPlayingItem": null,
+    "PlayState": {
+      "IsPaused": false
+    },
+    "TranscodingInfo": null
+  },
+  {
+    "Id": "sess-5",
+    "UserName": "guest",
+    "DeviceName": "Unknown Device",
+    "Client": null,
+    "RemoteEndPoint": null,
+    "NowPlayingItem": {
+      "Id": "item-book",
+      "Name": "Dune",
+      "Type": "Book",
+      "RunTimeTicks": null
+    },
+    "PlayState": null
+  }
+]

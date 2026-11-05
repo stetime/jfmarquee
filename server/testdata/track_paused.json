@@ -1,0 +1,25 @@
+[
+  {
+    "Id": "sess-3",
+    "UserName": "sam",
+    "DeviceName": "iPhone",
+    "Client": "Swiftfin",
+    "RemoteEndPoint": "100.64.0.9",
+    "NowPlayingItem": {
+      "Id": "item-track",
+      "Name": "CIRCLONT14 (shrymoming mix)",
+      "Type": "Audio",
+      "RunTimeTicks": 4413380000,
+      "Album": "Syro",
+      "AlbumArtist": "Aphex Twin",
+      "Artists": ["Aphex Twin"],
+      "ImageTags": { "Primary": "tag-track" },
+      "MediaSources": [{ "Bitrate": 320000 }]
+    },
+    "PlayState": {
+      "PositionTicks": 1000000000,
+      "IsPaused": true,
+      "PlayMethod": "DirectPlay"
+    }
+  }
+]

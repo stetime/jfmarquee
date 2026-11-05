@@ -1,0 +1,25 @@
+[
+  {
+    "Id": "sess-1",
+    "UserName": "sam",
+    "DeviceName": "Chrome",
+    "Client": "Jellyfin Web",
+    "ApplicationVersion": "10.11.0",
+    "RemoteEndPoint": "192.168.1.44:52344",
+    "NowPlayingItem": {
+      "Id": "item-movie",
+      "Name": "Fight Club",
+      "Type": "Movie",
+      "RunTimeTicks": 83483840000,
+      "ProductionYear": 1999,
+      "ImageTags": { "Primary": "tag-movie" },
+      "MediaSources": [{ "Bitrate": 1969000 }]
+    },
+    "PlayState": {
+      "PositionTicks": 41741920000,
+      "IsPaused": false,
+      "PlayMethod": "DirectPlay"
+    },
+    "TranscodingInfo": null
+  }
+]
